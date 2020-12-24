@@ -3,11 +3,12 @@
 (setq user-full-name "xukeek"
       user-mail-address "okeoke1011@gmail.com"
       doom-scratch-intial-major-mode 'lisp-interaction-mode
-      doom-font (font-spec :family "Roboto Mono" :size 15)
+      doom-font (font-spec :family "Sarasa Fixed SC" :size 25)
       doom-variable-pitch-font (font-spec :family "Libre Baskerville")
       doom-serif-font (font-spec :family "Libre Baskerville")
-      doom-theme 'modus-operandi
+      doom-theme 'doom-one
       display-line-numbers-type nil
+      system-time-locale "C"
       load-prefer-newer t
 
       company-idle-delay nil
