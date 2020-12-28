@@ -3,7 +3,7 @@
 (setq user-full-name "xukeek"
       user-mail-address "okeoke1011@gmail.com"
       doom-scratch-intial-major-mode 'lisp-interaction-mode
-      doom-font (font-spec :family "Sarasa Fixed SC" :size 25)
+      doom-font (font-spec :family "Iosevka" :size 15)
       doom-variable-pitch-font (font-spec :family "Libre Baskerville")
       doom-serif-font (font-spec :family "Libre Baskerville")
       doom-theme 'doom-one
