@@ -17,6 +17,7 @@
        vc-gutter
 
        :editor
+       (evil +everywhere)
        fold
        (format +onsave)
        snippets
@@ -50,6 +51,7 @@
        (python +lsp +pyright)
        rest
        (rust +lsp)
+       elixir
        sh
        web
 

@@ -1,7 +1,7 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
-(setq user-full-name "Jethro Kuan"
-      user-mail-address "jethrokuan95@gmail.com"
+(setq user-full-name "xukeek"
+      user-mail-address "okeoke1011@gmail.com"
       doom-scratch-intial-major-mode 'lisp-interaction-mode
       doom-font (font-spec :family "Roboto Mono" :size 15)
       doom-variable-pitch-font (font-spec :family "Libre Baskerville")
@@ -14,7 +14,7 @@
       lsp-ui-sideline-enable nil
       lsp-enable-symbol-highlighting nil)
 
-(setq org-directory "~/.org/"
+(setq org-directory "~/Dropbox/org/"
       org-ellipsis " ▼ "
       org-adapt-indentation nil
       org-habit-show-habits-only-for-today t)
@@ -124,7 +124,7 @@
   (interactive)
   (org-map-entries 'org-archive-subtree "/DONE" 'file))
 (require 'find-lisp)
-(setq jethro/org-agenda-directory (file-truename "~/.org/gtd/"))
+(setq jethro/org-agenda-directory (file-truename "~/Dropbox/org/gtd/"))
 (setq org-agenda-files
       (find-lisp-find-files jethro/org-agenda-directory "\.org$"))
 
@@ -331,7 +331,7 @@
         :desc "org-roam-show-graph" "g" #'org-roam-show-graph
         :desc "org-roam-capture" "c" #'org-roam-capture
         :desc "org-roam-dailies-capture-today" "j" #'org-roam-dailies-capture-today)
-  (setq org-roam-directory (file-truename "~/.org/braindump/org/")
+  (setq org-roam-directory (file-truename "~/Dropbox/org/braindump/org/")
         org-roam-db-gc-threshold most-positive-fixnum
         org-id-link-to-org-use-id t)
   (add-to-list 'display-buffer-alist
@@ -441,8 +441,8 @@
 
 (use-package! bibtex-completion
   :config
-  (setq bibtex-completion-notes-path "~/.org/braindump/org/"
-        bibtex-completion-bibliography "~/.org/braindump/org/biblio.bib"
+  (setq bibtex-completion-notes-path "~/Dropbox/org/braindump/org/"
+        bibtex-completion-bibliography "~/Dropbox/org/braindump/org/biblio.bib"
         bibtex-completion-pdf-field "file"
         bibtex-completion-notes-template-multiple-files
          (concat
